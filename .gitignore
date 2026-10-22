@@ -1,0 +1,7 @@
+chrome-profile-prod/
+chrome-profile/
+*.tar.gz
+dist.sha256
+browser-report*.txt
+*.README.md
+shots/
