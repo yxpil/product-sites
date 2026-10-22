@@ -77,7 +77,7 @@ const PRODUCTS = [
     zhChips: ['dlopen 直接跨语言调用 C / C++ / Rust / Zig / Go 动态库', '零宏魔法', '适合作为写解释器的参考实现'],
     enTag: 'A minimal JS-flavoured scripting language (a ~1500-line Rust interpreter)',
     enChips: ['dlopen straight into C / C++ / Rust / Zig / Go dynamic libraries', 'No macro magic', 'A readable reference implementation for writing an interpreter'] },
-  { repo: 'SPNIX', slug: 'spnix', cat: 'ai',
+  { repo: 'SPNIX', slug: 'spnix', cat: 'ai', noRelease: true, // its only GitHub release is a CI placeholder tagged "ES" / named "TESTVERSION"
     zhTag: 'SPNIX — 极小的 Rust 终端 AI Agent',
     zhChips: ['内置 CHECK / DEL / EDIT / EXEC / LS / PLUGS / Todo / WRITE 工具集', 'OpenAI 协议直连'],
     enTag: 'SPNIX — a very small Rust terminal AI agent',
@@ -268,7 +268,8 @@ function page(p) {
   const branch = branches[p.repo] || 'main';
   const repoUrl = 'https://github.com/yxpil/' + p.repo;
   const host = p.slug + '.yxpil.com';
-  const hasRelease = f.tag !== 'no-release';
+  const placeholder = !!p.noRelease;
+  const hasRelease = f.tag !== 'no-release' && !placeholder;
   const relDate = (f.tagDate || '').slice(0, 10);
   const docsMd = (f.docs || '').split(',').filter(n => n.endsWith('.md'));
   // Some descriptions already open with the product name; don't print it twice in <title>.
@@ -294,9 +295,11 @@ function page(p) {
     ? (f.assets > 0
       ? `Latest release ${f.tag}${relDate ? ', published ' + relDate : ''}, with ${f.assets} published asset${f.assets === 1 ? '' : 's'}. Archives and installers are listed on the GitHub Releases page.`
       : `Latest release ${f.tag}${relDate ? ', published ' + relDate : ''}, with notes on the GitHub Releases page.`)
-    : 'No published binaries so far: build from source. The README describes the toolchain and the run command.';
+    : (placeholder
+      ? 'Its only GitHub release is a CI placeholder (tag "ES", named "TESTVERSION"), so no version is advertised here. Build from source: the README describes the toolchain and the run command.'
+      : 'No published binaries so far: build from source. The README describes the toolchain and the run command.');
   en['docs.title'] = 'Read';
-  en['cta.download'] = 'Download latest';
+  en['cta.download'] = hasRelease ? 'Download latest' : 'View source';
   en['cta.repo'] = 'Source';
   en['skip'] = 'Skip to content';
   en['footer.served'] = 'This page is one static file, served by ONRouter.';
@@ -311,9 +314,11 @@ function page(p) {
     ? (f.assets > 0
       ? `最新 release ${f.tag}${relDate ? '（' + relDate + '）' : ''}，随包 ${f.assets} 个产物。压缩包与安装包在 GitHub Releases 页面上。`
       : `最新 release ${f.tag}${relDate ? '（' + relDate + '）' : ''}，产物清单见 GitHub Releases 页面。`)
-    : '还没有发布过二进制产物，从源码构建：仓库 README 写了工具链和启动命令。';
+    : (placeholder
+      ? 'GitHub 上唯一一条 release 是 CI 占位（tag “ES”，名称 “TESTVERSION”），这里不当作版本发布。从源码构建：仓库 README 写了工具链和启动命令。'
+      : '还没有发布过二进制产物，从源码构建：仓库 README 写了工具链和启动命令。');
   zh['docs.title'] = '阅读';
-  zh['cta.download'] = '下载最新版';
+  zh['cta.download'] = hasRelease ? '下载最新版' : '查看源码';
   zh['cta.repo'] = '源码';
   zh['skip'] = '跳到正文';
   zh['footer.served'] = '本页是一个静态文件，由 ONRouter 提供。';
@@ -434,8 +439,8 @@ function page(p) {
       <p class="lede" data-i18n="lede">${esc(f.desc)}</p>
       <p class="cta">
         ${hasRelease
-          ? `<a class="btn primary" href="https://${host}/download" data-i18n="cta.download">下载最新版</a>`
-          : `<a class="btn primary" href="${repoUrl}" rel="noopener" data-i18n="cta.download">下载最新版</a>`}
+          ? `<a class="btn primary" href="https://${host}/download" data-i18n="cta.download">${esc(zh['cta.download'])}</a>`
+          : `<a class="btn primary" href="${repoUrl}" rel="noopener" data-i18n="cta.download">${esc(zh['cta.download'])}</a>`}
         <a class="btn" href="${repoUrl}" rel="noopener" data-i18n="cta.repo">源码</a>
       </p>
     </div>
@@ -531,7 +536,7 @@ for (const p of PRODUCTS) {
   const host = p.slug + '.yxpil.com';
   fs.mkdirSync(`${DIR}/dist/${host}`, { recursive: true });
   fs.writeFileSync(`${DIR}/dist/${host}/index.html`, page(p));
-  manifest.push({ host, slug: p.slug, repo: p.repo, tag: f.tag, hasRelease: f.tag !== 'no-release', assets: f.assets });
+  manifest.push({ host, slug: p.slug, repo: p.repo, tag: f.tag, hasRelease: f.tag !== 'no-release' && !p.noRelease, assets: p.noRelease ? 0 : f.assets });
 }
 fs.writeFileSync(DIR + '/dist/manifest.json', JSON.stringify(manifest, null, 2));
 console.log('generated', manifest.length, 'sites ->', DIR + '/dist');

@@ -11,7 +11,7 @@ sm4kit.yxpil.com	0	SM4Kit
 ulocker.yxpil.com	0	ULocker
 cqrc.yxpil.com	0	CQRC
 pilscript.yxpil.com	0	PILScript
-spnix.yxpil.com	1	SPNIX
+spnix.yxpil.com	0	SPNIX
 humix.yxpil.com	1	HUMIX
 fakesshplay.yxpil.com	1	Fake_SSH_Play
 pilseocore.yxpil.com	1	PILSEOCORE

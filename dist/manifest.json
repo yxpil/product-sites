@@ -108,8 +108,8 @@
     "slug": "spnix",
     "repo": "SPNIX",
     "tag": "ES",
-    "hasRelease": true,
-    "assets": 1
+    "hasRelease": false,
+    "assets": 0
   },
   {
     "host": "humix.yxpil.com",
