@@ -51,65 +51,65 @@
     "host": "sniffgate.yxpil.com",
     "slug": "sniffgate",
     "repo": "sniffgate",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "cloudsh.yxpil.com",
     "slug": "cloudsh",
     "repo": "CloudSH",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "mightbe.yxpil.com",
     "slug": "mightbe",
     "repo": "MightBe",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "sm4kit.yxpil.com",
     "slug": "sm4kit",
     "repo": "SM4Kit",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "ulocker.yxpil.com",
     "slug": "ulocker",
     "repo": "ULocker",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "cqrc.yxpil.com",
     "slug": "cqrc",
     "repo": "CQRC",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 3
   },
   {
     "host": "pilscript.yxpil.com",
     "slug": "pilscript",
     "repo": "PILScript",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "spnix.yxpil.com",
     "slug": "spnix",
     "repo": "SPNIX",
-    "tag": "ES",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "humix.yxpil.com",
@@ -211,81 +211,81 @@
     "host": "nebula.yxpil.com",
     "slug": "nebula",
     "repo": "Nebula",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 10
   },
   {
     "host": "styxvision.yxpil.com",
     "slug": "styxvision",
     "repo": "styx-vision",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v0.1.0",
+    "hasRelease": true,
+    "assets": 4
   },
   {
     "host": "drawlib.yxpil.com",
     "slug": "drawlib",
     "repo": "DrawLib",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "chatui.yxpil.com",
     "slug": "chatui",
     "repo": "ChatUI",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "controlecharts.yxpil.com",
     "slug": "controlecharts",
     "repo": "ControlEcharts",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "piano.yxpil.com",
     "slug": "piano",
     "repo": "online-piano",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "drawbuddy.yxpil.com",
     "slug": "drawbuddy",
     "repo": "drawbuddy",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "vmtyper.yxpil.com",
     "slug": "vmtyper",
     "repo": "VmTyper",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "pilinstaller.yxpil.com",
     "slug": "pilinstaller",
     "repo": "PILinstaller",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 3
   },
   {
     "host": "pilsoftflow.yxpil.com",
     "slug": "pilsoftflow",
     "repo": "PILSoftFlow",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "whitelib.yxpil.com",
@@ -299,9 +299,9 @@
     "host": "rombay.yxpil.com",
     "slug": "rombay",
     "repo": "ROMbay",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "mq.yxpil.com",
@@ -323,9 +323,9 @@
     "host": "tentacletool.yxpil.com",
     "slug": "tentacletool",
     "repo": "TentacleTool",
-    "tag": "no-release",
-    "hasRelease": false,
-    "assets": 0
+    "tag": "v1.0.0",
+    "hasRelease": true,
+    "assets": 2
   },
   {
     "host": "inkdock.yxpil.com",

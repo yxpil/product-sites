@@ -39,4 +39,4 @@ node browser-check.js   # headless Chrome：zh/en、390/1440、溢出、console�
 
 ## 当前状态
 
-41 个站点，其中 22 个有 GitHub Release；清单见 `hosts.txt`，页面在 `dist/`。
+52 个站点，其中 43 个有 GitHub Release；清单见 `hosts.txt`，页面在 `dist/`。

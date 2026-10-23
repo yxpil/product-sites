@@ -76,11 +76,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "ARCHITECTURE.md,DEPLOY.md,OPS.md",
     "readmeBytes": 10021,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:31:32Z",
     "desc": "多节点嗅探主备热切换网关 — 对外统一 TCP / UDP 入口、后端健康嗅探、主备秒级热切换、配置文件在线热加载（Rust）"
   },
   {
@@ -88,11 +88,11 @@
     "archived": false,
     "stars": 1,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "",
     "readmeBytes": 3322,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:59:20Z",
     "desc": "云 SSH 中继 — 被控主机主动外连云 VPS，穿透 NAT / 防火墙，无需公网 IP 与开放端口，一条命令远程执行（Rust：Server / Agent / Client 三件套）"
   },
   {
@@ -100,11 +100,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "",
     "readmeBytes": 59660,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:56:20Z",
     "desc": "用 Rust 从零实现的神经网络实时修改框架 + 类 MySQL 的神经网络特征数据库：自定义网络结构、入库文本自动分词向量化、联想检索与可解释推理（多跳 + 证据 + 置信度），模型可热更新"
   },
   {
@@ -112,11 +112,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 3060,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:47Z",
     "desc": "SM4 分组密码（GB/T 32907-2016）多语言组件库：JavaScript/TypeScript·Python·Go·Java·Rust·PHP·Ruby·C，零依赖，统一 API 与标准测试向量"
   },
   {
@@ -124,11 +124,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 4,
     "docs": "FORMAT.md,screenshot.png",
     "readmeBytes": 8910,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:56:00Z",
     "desc": "U 盘加密软件：AES-256-GCM 分块加密、Argon2id 口令派生、容器绑定 U 盘序列号换盘打不开、改口令秒级完成，命令行 + 图形界面"
   },
   {
@@ -136,11 +136,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 3,
     "docs": "",
     "readmeBytes": 5661,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:30Z",
     "desc": "从零实现的彩色 / 风格化二维码生成库（零第三方依赖）— C#（net8.0 / net10.0）与纯 JavaScript 双实现，覆盖 ISO/IEC 18004 编码、GF(2⁸) Reed-Solomon 纠错与 ISO/IEC 21570 扩展"
   },
   {
@@ -148,11 +148,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "",
     "readmeBytes": 5399,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:56:07Z",
     "desc": "极简 JS 风格脚本语言（约 1500 行 Rust 解释器）— dlopen 直接跨语言调用 C / C++ / Rust / Zig / Go 动态库，零宏魔法，适合作为写解释器的参考实现"
   },
   {
@@ -160,11 +160,11 @@
     "archived": false,
     "stars": 2,
     "homepage": "",
-    "tag": "ES",
-    "assets": 1,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "",
     "readmeBytes": 339,
-    "tagDate": "2026-06-11T01:52:48Z",
+    "tagDate": "2026-10-23T02:57:21Z",
     "desc": "SPNIX — 极小的 Rust 终端 AI Agent：内置 CHECK / DEL / EDIT / EXEC / LS / PLUGS / Todo / WRITE 工具集，OpenAI 协议直连"
   },
   {
@@ -316,11 +316,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 10,
     "docs": "",
     "readmeBytes": 8409,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:44:57Z",
     "desc": "本地优先的个人记忆 / 笔记检索引擎 — 单文件加密存储（Argon2id + ChaCha20-Poly1305）、类 SQL 接口、BM25 全文检索与联想查询，可开 TCP 加密服务"
   },
   {
@@ -328,11 +328,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v0.1.0",
+    "assets": 4,
     "docs": "",
     "readmeBytes": 3789,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:55:35Z",
     "desc": "本地图像理解：让没有视觉能力的语言模型也能「看见」图片 — 零第三方依赖，自带基线 JPEG 解码与提示词反推，可脱离 Styx 独立使用"
   },
   {
@@ -340,11 +340,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "https://yxpil.github.io/DrawLib/",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "screenshot-gallery.png,screenshot-main.png",
     "readmeBytes": 2201,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:23Z",
     "desc": "DrawLib 绘画工作室 — 纯前端零依赖 PNG 绘画软件：19 种工具 / 120 个滤镜与调整 / 插件系统 / PS 风格菜单栏 / 完整历史记录"
   },
   {
@@ -352,11 +352,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 8963,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:31Z",
     "desc": "纯前端零后端零账号的 OpenAI 兼容聊天客户端：15 家模型服务商、GFM 与 LaTeX 渲染、长期记忆、四格式导入导出，Tailwind v4 离线可用"
   },
   {
@@ -364,11 +364,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "preview-dark.png,preview-light.png",
     "readmeBytes": 3748,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:53Z",
     "desc": "基于 Tailwind CSS + Apache ECharts 的统计图表工作台 — 38 种图表 / CSV 导入 / 单色多色配色 / SVG 矢量导出，纯前端零构建离线可用"
   },
   {
@@ -376,11 +376,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "https://yxpil.github.io/online-piano/",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 566,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:45Z",
     "desc": "指尖钢琴 · 在线 MIDI 合成钢琴 — Web Audio 实时合成 36 种音色，支持 MIDI 多轨多音色播放 / 导出、屏幕触控、电脑键盘与外接 Web MIDI 键盘"
   },
   {
@@ -388,11 +388,11 @@
     "archived": false,
     "stars": 0,
     "homepage": "https://yxpil.github.io/drawbuddy/",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 2399,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:55:01Z",
     "desc": "DrawBuddy · 万能绘图工作台 — 流程图 / 时序图 / 思维导图 / 统计图表，基于 Mermaid + Chart.js，单页纯前端离线可用，导出 PNG / SVG"
   },
   {
@@ -400,11 +400,11 @@
     "archived": false,
     "stars": 6,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 1108,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:56:21Z",
     "desc": "把剪贴板里的文本模拟成逐字键盘输入，绕过那些禁止粘贴的网页 / 应用输入框；可调速、可控制录入节奏"
   },
   {
@@ -412,11 +412,11 @@
     "archived": false,
     "stars": 1,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 3,
     "docs": "",
     "readmeBytes": 354,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:59Z",
     "desc": "自己用的 Windows 安装包生成器 — 图形化向导配置品牌 / 授权协议 / 安装目录，产出带卸载项的 C# WPF 安装程序，并附带可供 AI 直接调用的 MCP 工具"
   },
   {
@@ -436,11 +436,11 @@
     "archived": false,
     "stars": 1,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 1177,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:54:54Z",
     "desc": "自动关机 + WOL 唤醒一体服务（纯 Node.js，零依赖）— 客户端访问离线后端时自动发 WOL 魔术包唤醒，重型机空闲 5 分钟自动关机"
   },
   {
@@ -460,11 +460,11 @@
     "archived": false,
     "stars": 1,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 2103,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:55:03Z",
     "desc": "实验性 MySQL 协议代理 — 把 ROM 的 SQL 数据加载进内存（RAM）加速读取，同时做用户认证、权限管理与 SQL 执行审计"
   },
   {
@@ -496,11 +496,11 @@
     "archived": false,
     "stars": 3,
     "homepage": "",
-    "tag": "no-release",
-    "assets": 0,
+    "tag": "v1.0.0",
+    "assets": 2,
     "docs": "",
     "readmeBytes": 3867,
-    "tagDate": "",
+    "tagDate": "2026-10-23T02:55:10Z",
     "desc": "触手怪的 MCP 工具集（monorepo）— 一个文件夹 = 一个独立工具集，全部零依赖 Node 原生实现，走 MCP Streamable HTTP 协议各自监听端口"
   },
   {
@@ -511,7 +511,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "00-requirements.md,01-design-system.md,02-architecture.md,03-data-model.md,04-roadmap.md,05-context-handoff.md",
-    "readmeBytes": 16697,
+    "readmeBytes": 8338,
     "tagDate": "",
     "desc": "墨坞 Inkdock · 本地优先的小说创作工作台（Next.js 16 + SQLite）"
   },
@@ -523,7 +523,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "01-概要设计.md,02-详细设计.md,03-接口规范.md,04-数据模型.md,05-部署与运维.md,06-互通网关.md,07-无服务器局域网直连.md",
-    "readmeBytes": 5250,
+    "readmeBytes": 2891,
     "tagDate": "",
     "desc": "开源、可自托管的桌面会议应用：Electron + WebRTC Mesh + Node.js 服务端，支持局域网 IPv4/IPv6 直连、STUN 与 TURN 桥接"
   },
@@ -535,7 +535,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "01-概要设计.md,02-详细设计.md,03-接口规范.md,screenshots",
-    "readmeBytes": 13983,
+    "readmeBytes": 8408,
     "tagDate": "",
     "desc": "多模态数据标注工作台 — 图片 / 文本 / 音频 / 空间数据集标注，Node.js + SQLite，零第三方依赖"
   },
@@ -547,7 +547,7 @@
     "tag": "v0.1.8",
     "assets": 1,
     "docs": "",
-    "readmeBytes": 1285,
+    "readmeBytes": 865,
     "tagDate": "2026-07-29T09:07:41Z",
     "desc": "局域网屏幕广播工具 PILBroadcast（Tauri v2 + Rust + TypeScript）— xcap 实时截屏 + JPEG 推流，手机 / 浏览器打开即可观看桌面，画质、帧率、显示器均可调"
   },
@@ -559,7 +559,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "01-选题说明.md,02-总体架构.md,03-模块设计.md,04-HomeAssistant集成.md,05-边缘AI推理.md,06-安全设计.md,07-部署指南.md,08-API参考.md,09-测试与验证.md,10-扩展指南.md,11-自动化与开放接入.md,12-网络发现与厂商生态.md,13-MCP接入.md,en",
-    "readmeBytes": 4253,
+    "readmeBytes": 2647,
     "tagDate": "",
     "desc": "本地优先、可自进化的智能家居安全中枢 — 异构设备统一接入、边缘 AI 推理（检测 / 手势 / 视频审计）、行为画像与规则变异、自我审计闭环、Home Assistant 联动"
   },
@@ -571,7 +571,7 @@
     "tag": "v0.1.8",
     "assets": 2,
     "docs": "",
-    "readmeBytes": 1285,
+    "readmeBytes": 865,
     "tagDate": "2026-07-27T03:45:44Z",
     "desc": "局域网文件共享工具 PiLPublisher（Tauri v2 + Rust + TypeScript）— 内嵌 HTTP 文件服务器，手机扫码即可浏览 / 上传 / 重命名 / 删除，权限与访问密码可独立开关；已迭代 v0.1.1 → v0.1.8"
   },
@@ -583,7 +583,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 12151,
+    "readmeBytes": 7665,
     "tagDate": "",
     "desc": "基于 LLM 的角色扮演内核 — 只依赖五个 trait 端口、不绑定任何后端，用同一份内核驱动不同模型与存储（角色卡 / 互动小说）"
   },
@@ -595,7 +595,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 2395,
+    "readmeBytes": 1479,
     "tagDate": "",
     "desc": "枕的小屋 (yxpil.com) 自有 UI 设计系统：颜色令牌 -> 6 套主题 -> y-* 语义组件类。单文件 CSS + Tailwind v4 预设 + 三套模板，也是 Qoder Skill。"
   },
@@ -607,7 +607,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 377,
+    "readmeBytes": 341,
     "tagDate": "",
     "desc": "自己常用的工具类（持续更新）— Json / Log / Time / Tokenizer 四件套，Java、JavaScript、Python 三语言等价实现"
   },
@@ -619,7 +619,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 3509,
+    "readmeBytes": 1905,
     "tagDate": "",
     "desc": "内容审核多语言敏感词库，覆盖 108 种语言 × 4 类词库（色情/政治/广告/涉枪爆），关键词降级过滤用。源自 fwwdn/sensitive-stop-words（Apache-2.0）"
   },
@@ -631,7 +631,7 @@
     "tag": "no-release",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 6660,
+    "readmeBytes": 3300,
     "tagDate": "",
     "desc": "白毛猫耳 Q 版表情包 250 张 / 228 条文案 · 透明 PNG + WebP 双规格 · 自带完整生成管线脚本与 3 帧 GIF 动画"
   },
@@ -643,7 +643,7 @@
     "tag": "v0.6.22",
     "assets": 26,
     "docs": "",
-    "readmeBytes": 15143,
+    "readmeBytes": 10706,
     "tagDate": "2026-09-14T11:43:43Z",
     "desc": "【已停止维护】原名 BIT · 本地优先的桌面端 AI Agent 工具中枢（工具注册 / MCP / 技能 / 远程 API）— 已更名「触手怪 Tentacle」，新仓库见 yxpil/BrainTentacle"
   },
@@ -655,7 +655,7 @@
     "tag": "v1.1.21",
     "assets": 0,
     "docs": "",
-    "readmeBytes": 20552,
+    "readmeBytes": 15251,
     "tagDate": "2026-06-05T15:25:49Z",
     "desc": "Sapni（栖梦）· 自进化 AI 编程助手 — 终端交互 + OpenAI 兼容 API 服务双模式，50+ 工具、持久记忆、会话管理与自定义技能（能力已由 BIT 继承，本仓库归档）"
   }

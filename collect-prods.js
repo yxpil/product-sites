@@ -10,6 +10,8 @@ const repos = [
   'ADONWORD', 'BITSDK', 'BrainTentacle', 'Nebula', 'styx-vision', 'DrawLib', 'ChatUI',
   'ControlEcharts', 'online-piano', 'drawbuddy', 'VmTyper', 'PILinstaller', 'Compositor',
   'PILSoftFlow', 'whitelib', 'ROMbay', 'MQ', 'bit-mobile', 'TentacleTool',
+  'inkdock', 'openmeet', 'overmarked', 'PILBroadcast', 'PILHOME', 'PILPublisher', 'Styx',
+  'yxpil-ui', 'ToolsForMy', 'multilingual-sensitive-words', 'A-PILCat', 'bit', 'sapni',
 ];
 
 let query = '{\n';
