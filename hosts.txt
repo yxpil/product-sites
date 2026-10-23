@@ -39,3 +39,14 @@ rombay.yxpil.com	0	ROMbay
 mq.yxpil.com	1	MQ
 bitmobile.yxpil.com	1	bit-mobile
 tentacletool.yxpil.com	0	TentacleTool
+inkdock.yxpil.com	0	inkdock
+openmeet.yxpil.com	0	openmeet
+overmarked.yxpil.com	0	overmarked
+pilbroadcast.yxpil.com	1	PILBroadcast
+pilhome.yxpil.com	0	PILHOME
+pilpublisher.yxpil.com	1	PILPublisher
+styx.yxpil.com	0	Styx
+yxpil-ui.yxpil.com	0	yxpil-ui
+toolsformy.yxpil.com	0	ToolsForMy
+sensitive-words.yxpil.com	0	multilingual-sensitive-words
+pilcat.yxpil.com	0	A-PILCat

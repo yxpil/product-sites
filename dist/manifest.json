@@ -326,5 +326,93 @@
     "tag": "no-release",
     "hasRelease": false,
     "assets": 0
+  },
+  {
+    "host": "inkdock.yxpil.com",
+    "slug": "inkdock",
+    "repo": "inkdock",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "openmeet.yxpil.com",
+    "slug": "openmeet",
+    "repo": "openmeet",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "overmarked.yxpil.com",
+    "slug": "overmarked",
+    "repo": "overmarked",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "pilbroadcast.yxpil.com",
+    "slug": "pilbroadcast",
+    "repo": "PILBroadcast",
+    "tag": "v0.1.8",
+    "hasRelease": true,
+    "assets": 1
+  },
+  {
+    "host": "pilhome.yxpil.com",
+    "slug": "pilhome",
+    "repo": "PILHOME",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "pilpublisher.yxpil.com",
+    "slug": "pilpublisher",
+    "repo": "PILPublisher",
+    "tag": "v0.1.8",
+    "hasRelease": true,
+    "assets": 2
+  },
+  {
+    "host": "styx.yxpil.com",
+    "slug": "styx",
+    "repo": "Styx",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "yxpil-ui.yxpil.com",
+    "slug": "yxpil-ui",
+    "repo": "yxpil-ui",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "toolsformy.yxpil.com",
+    "slug": "toolsformy",
+    "repo": "ToolsForMy",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "sensitive-words.yxpil.com",
+    "slug": "sensitive-words",
+    "repo": "multilingual-sensitive-words",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
+  },
+  {
+    "host": "pilcat.yxpil.com",
+    "slug": "pilcat",
+    "repo": "A-PILCat",
+    "tag": "no-release",
+    "hasRelease": false,
+    "assets": 0
   }
 ]

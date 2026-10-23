@@ -98,7 +98,9 @@ const getJson = (url) => new Promise((res, rej) => {
             cta: q(".cta .btn.primary").getAttribute("href"),
             ctaText: q(".cta .btn.primary").innerText,
             getBody: q(".get").innerText,
-            mainText: q("main").innerText + " " + q("footer").innerText, clipped: clipped,
+            // Copy only: docs link labels are real repo filenames and may legitimately be Chinese.
+            mainText: [q("h1").innerText, q(".lede").innerText, q(".eyebrow").innerText, q(".get").innerText,
+              ...chips.map(li => li.innerText), ...Array.from(document.querySelectorAll("footer p")).map(p => p.innerText)].join(" "), clipped: clipped,
             cols: getComputedStyle(q(".docs")).gridTemplateColumns.split(" ").length,
             stored: (() => { try { const k = Object.keys(localStorage).filter(x => x.endsWith("-lang")); return k.map(x => x + "=" + localStorage.getItem(x)).join(","); } catch (e) { return "err"; } })(),
           };

@@ -40,5 +40,18 @@
   "ROMbay": "main",
   "MQ": "main",
   "bit-mobile": "main",
-  "TentacleTool": "main"
+  "TentacleTool": "main",
+  "inkdock": "main",
+  "openmeet": "main",
+  "overmarked": "main",
+  "PILBroadcast": "master",
+  "PILHOME": "main",
+  "PILPublisher": "master",
+  "Styx": "main",
+  "yxpil-ui": "main",
+  "ToolsForMy": "main",
+  "multilingual-sensitive-words": "main",
+  "A-PILCat": "main",
+  "bit": "main",
+  "sapni": "main"
 }

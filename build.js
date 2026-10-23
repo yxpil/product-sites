@@ -217,6 +217,61 @@ const PRODUCTS = [
     zhChips: ['一个文件夹 = 一个独立工具集', '全部零依赖 Node 原生实现', '走 MCP Streamable HTTP 协议各自监听端口'],
     enTag: 'BrainTentacle\'s MCP tool collection (monorepo)',
     enChips: ['One folder = one standalone toolset', 'All zero-dependency native Node implementations', 'Each speaks MCP Streamable HTTP on its own port'] },
+  { repo: 'inkdock', slug: 'inkdock', cat: 'writing',
+    zhTag: '墨坞 Inkdock',
+    zhChips: ['本地优先的小说创作工作台', 'Next.js 16 + SQLite'],
+    enTag: 'Inkdock — a local-first novel authoring workbench',
+    enChips: ['A local-first novel authoring workbench', 'Next.js 16 + SQLite'] },
+  { repo: 'openmeet', slug: 'openmeet', cat: 'desktop',
+    zhTag: '开源、可自托管的桌面会议应用',
+    zhChips: ['Electron + WebRTC Mesh + Node.js 服务端', '支持局域网 IPv4/IPv6 直连、STUN 与 TURN 桥接'],
+    enTag: 'Open-source, self-hostable desktop meeting app',
+    enChips: ['Electron + WebRTC mesh + Node.js server', 'LAN IPv4/IPv6 direct connections, STUN and TURN bridging'] },
+  { repo: 'overmarked', slug: 'overmarked', cat: 'data',
+    zhTag: '多模态数据标注工作台',
+    zhChips: ['图片 / 文本 / 音频 / 空间数据集标注', 'Node.js + SQLite，零第三方依赖'],
+    enTag: 'Multimodal data annotation workbench',
+    enChips: ['Image / text / audio / spatial dataset labeling', 'Node.js + SQLite, zero third-party dependencies'] },
+  { repo: 'PILBroadcast', slug: 'pilbroadcast', cat: 'desktop',
+    zhTag: '局域网屏幕广播工具 PILBroadcast（Tauri v2 + Rust + TypeScript）',
+    zhChips: ['xcap 实时截屏 + JPEG 推流', '手机 / 浏览器打开即可观看桌面', '画质、帧率、显示器均可调'],
+    enTag: 'LAN screen-broadcast tool PILBroadcast (Tauri v2 + Rust + TypeScript)',
+    enChips: ['xcap live capture + JPEG streaming', 'Watch the desktop from a phone or browser', 'Quality, frame rate and display all adjustable'] },
+  { repo: 'PILHOME', slug: 'pilhome', cat: 'security',
+    zhTag: '本地优先、可自进化的智能家居安全中枢',
+    zhChips: ['异构设备统一接入', '边缘 AI 推理（检测 / 手势 / 视频审计）', '行为画像与规则变异', '自我审计闭环', 'Home Assistant 联动'],
+    enTag: 'Local-first, self-evolving smart-home security hub',
+    enChips: ['Unified access for heterogeneous devices', 'Edge AI inference (detection / gesture / video audit)', 'Behaviour profiling and rule mutation', 'A self-audit loop', 'Home Assistant integration'] },
+  { repo: 'PILPublisher', slug: 'pilpublisher', cat: 'desktop',
+    zhTag: '局域网文件共享工具 PiLPublisher（Tauri v2 + Rust + TypeScript）',
+    zhChips: ['内嵌 HTTP 文件服务器', '手机扫码即可浏览 / 上传 / 重命名 / 删除', '权限与访问密码可独立开关'],
+    enTag: 'LAN file-sharing tool PiLPublisher (Tauri v2 + Rust + TypeScript)',
+    enChips: ['Embedded HTTP file server', 'Browse / upload / rename / delete from a phone after scanning a QR code', 'Permissions and the access password toggle independently'] },
+  { repo: 'Styx', slug: 'styx', cat: 'ai',
+    zhTag: '基于 LLM 的角色扮演内核',
+    zhChips: ['只依赖五个 trait 端口、不绑定任何后端', '用同一份内核驱动不同模型与存储（角色卡 / 互动小说）'],
+    enTag: 'An LLM-based role-play kernel',
+    enChips: ['Depends on only five trait ports and binds to no backend', 'One kernel driving different models and stores (character cards / interactive fiction)'] },
+  { repo: 'yxpil-ui', slug: 'yxpil-ui', cat: 'design',
+    zhTag: '枕的小屋 (yxpil.com) 自有 UI 设计系统',
+    zhChips: ['颜色令牌 -> 6 套主题 -> y-* 语义组件类', '单文件 CSS + Tailwind v4 预设 + 三套模板', '也是 Qoder Skill'],
+    enTag: 'yxpil.com\'s in-house UI design system',
+    enChips: ['Colour tokens -> 6 themes -> y-* semantic component classes', 'Single-file CSS + Tailwind v4 preset + three templates', 'Also ships as a Qoder Skill'] },
+  { repo: 'ToolsForMy', slug: 'toolsformy', cat: 'lib',
+    zhTag: '自己常用的工具类（持续更新）',
+    zhChips: ['Json / Log / Time / Tokenizer 四件套', 'Java、JavaScript、Python 三语言等价实现'],
+    enTag: 'My everyday utility classes (ongoing)',
+    enChips: ['Json / Log / Time / Tokenizer, four kits', 'Equivalent implementations in Java, JavaScript and Python'] },
+  { repo: 'multilingual-sensitive-words', slug: 'sensitive-words', cat: 'data',
+    zhTag: '内容审核多语言敏感词库',
+    zhChips: ['覆盖 108 种语言 × 4 类词库（色情/政治/广告/涉枪爆）', '关键词降级过滤用', '源自 fwwdn/sensitive-stop-words（Apache-2.0）'],
+    enTag: 'Multilingual sensitive-word list for content moderation',
+    enChips: ['Covers 108 languages × 4 lexicon classes (porn / politics / ads / weapons-explosives)', 'For keyword-downgrade filtering', 'Derived from fwwdn/sensitive-stop-words (Apache-2.0)'] },
+  { repo: 'A-PILCat', slug: 'pilcat', cat: 'media',
+    zhTag: '白毛猫耳 Q 版表情包',
+    zhChips: ['250 张 / 228 条文案', '透明 PNG + WebP 双规格', '自带完整生成管线脚本与 3 帧 GIF 动画'],
+    enTag: 'White-haired cat-eared chibi sticker pack',
+    enChips: ['250 stickers / 228 captions', 'Transparent PNG and WebP, both specifications', 'Ships the full generation pipeline scripts and 3-frame GIF animations'] },
 ];
 
 const CATS = {
@@ -229,6 +284,9 @@ const CATS = {
   lang: ['语言与解释器', 'Language & interpreter'],
   data: ['数据与存储', 'Data & storage'],
   tool: ['桌面小工具', 'Desktop utility'],
+  desktop: ['桌面应用', 'Desktop app'],
+  design: ['设计系统', 'Design system'],
+  writing: ['创作工具', 'Authoring tool'],
 };
 
 const errors = [];
@@ -272,14 +330,14 @@ function page(p) {
   const hasRelease = f.tag !== 'no-release' && !placeholder;
   const relDate = (f.tagDate || '').slice(0, 10);
   const docsMd = (f.docs || '').split(',').filter(n => n.endsWith('.md'));
-  // Some descriptions already open with the product name; don't print it twice in <title>.
-  const startsWithName = new RegExp('^\\s*' + p.repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(p.zhTag);
-  const titleZh = startsWithName ? p.zhTag : `${f.repo} — ${p.zhTag}`;
-  const titleEn = new RegExp('^\\s*' + p.repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i').test(p.enTag)
-    ? p.enTag : `${p.enTag} — ${f.repo}`;
+  // Some descriptions already carry the product name (at the start, or as a trailing brand word);
+  // don't print it twice in <title>.
+  const nameRe = new RegExp(p.repo.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'i');
+  const titleZh = nameRe.test(p.zhTag) ? p.zhTag : `${f.repo} — ${p.zhTag}`;
+  const titleEn = nameRe.test(p.enTag) ? p.enTag : `${p.enTag} — ${f.repo}`;
 
   const links = [{ zh: 'README', en: 'README', url: `${repoUrl}/blob/${branch}/README.md` }];
-  docsMd.forEach(n => links.push({ zh: n, en: n, url: `${repoUrl}/blob/${branch}/docs/${n}` }));
+  docsMd.forEach(n => links.push({ zh: n, en: n, url: `${repoUrl}/blob/${branch}/docs/${encodeURIComponent(n)}` }));
   if (hasRelease) links.push({ zh: 'Release 说明', en: 'Release notes', url: `${repoUrl}/releases/latest` });
   if (f.homepage) links.push({ zh: '在线页面', en: 'Hosted page', url: f.homepage });
 

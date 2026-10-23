@@ -40,8 +40,9 @@ for (const m of manifest) {
         const fp = rest.slice(rest.indexOf('/blob/') + 6);
         if (!fp.startsWith(branch + '/')) problems.push(`${m.host}: blob off default branch: ${fp}`);
         const p = fp.slice(branch.length + 1);
+        const seg = decodeURIComponent(p.split('/')[1] || '');
         if (p === 'README.md') { if (!f.readmeBytes) problems.push(`${m.host}: README link but README is empty in ${repo}`); }
-        else if (!(f.docs || '').split(',').includes(p.split('/')[1])) problems.push(`${m.host}: docs link not in repo docs listing: ${p}`);
+        else if (!(f.docs || '').split(',').includes(seg)) problems.push(`${m.host}: docs link not in repo docs listing: ${p}`);
       }
       if (rest.includes('/releases/') && !m.hasRelease) problems.push(`${m.host}: release link but no release`);
       continue;
